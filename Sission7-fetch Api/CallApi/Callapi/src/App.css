@@ -1,0 +1,14 @@
+.active {
+    color: red;
+    font-size: 22px;
+    text-decoration: none;
+
+}
+
+.header {
+    font-size: 21px;
+}
+
+.navbar a {
+    text-decoration: none; /* Bỏ gạch chân */
+  }
