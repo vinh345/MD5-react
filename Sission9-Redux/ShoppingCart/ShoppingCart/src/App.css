@@ -1,0 +1,40 @@
+.product {
+  margin-top: 40px;
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-left: 80px;
+}
+
+.cart {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-left: 80px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  height: 55px;
+  background-color: pink;
+  align-items: center;
+}
+
+.mini-cart-container {
+  position: relative;
+}
+
+.minicart {
+  display: none;
+  position: absolute;
+  width: 540px;
+  right: -90px;
+  top: 18px;
+  z-index: 10000;
+  background-color: red;
+}
+
+.mini-cart-container:hover .minicart {
+  display: block;
+}
